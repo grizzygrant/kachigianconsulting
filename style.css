@@ -1,0 +1,51 @@
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    padding: 0 1em 0 1em;
+    background-color: #0a0e24;
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    width: 1100px;
+}
+
+/* Header */
+header {
+    width: 1100px;
+}
+
+/* Hero Content */
+#hero-container {
+    background-image: url("./Images/snowcapped-mountain-peak.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: 0px 0px 3em 1em #f4f5f640;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hero-content {
+    background-color: #0a0e24;
+    border-radius: 2em;
+    padding: 2em;
+    text-align: center;
+    > h1, p, button {
+        padding: 0;
+        margin: 0;
+    }
+    > p {
+        padding: 1em 0;
+    }
+    > button {
+        padding: .5em;
+        width: 100%
+    }
+}
